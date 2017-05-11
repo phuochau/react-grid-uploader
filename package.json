@@ -1,6 +1,6 @@
 {
   "name": "react-grid-uploader",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "The grid uploader for Amazon S3 in ReactJS.",
   "main": "index.js",
   "scripts": {
