@@ -59,7 +59,7 @@ export default App;
 
 Name | Type |Info
 ------ | ----- | ----
-signingUrl | String | Your backend service that uses to generate signed url from `AWS_ACCESS_KEY_ID` & `AWS_SECRET_ACCESS_KEY`
+signingUrl | String | Your backend service that uses to generate signed url from `AWS_ACCESS_KEY_ID` & `AWS_SECRET_ACCESS_KEY`. See at for example service [https://github.com/odysseyscience/react-s3-uploader](https://github.com/odysseyscience/react-s3-uploader)
 onUploadFinish | Function | the callback function when upload completely.
 onUploadError | Function | the callback function when upload failed.
 onUploadProgress | Function | the callback function when upload in progress.
@@ -78,6 +78,16 @@ imageBorderActiveColor | String | border color of image in active state.
 iconContainerStyle | Object | style of icon container
 iconStyle | Object | style of icon
 progressColor | String | color of cirle progress. Default is `#fbba00`
+
+## Response data structure
+To get grid data, we call `getData()` and receive `array` of image data. Each item has the structure as below:
+
+Property Name | Type | Info
+------ | ----- | ----
+s3Data | Object | The uploaded response from AWS S3.
+description | String | Description of image.
+rotate | Integer | Rotage degree of image.
+Others | | Properties from react-dropzone.
 
 
 ## License
