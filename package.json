@@ -1,0 +1,35 @@
+{
+  "name": "react-grid-uploader",
+  "version": "1.0.0",
+  "description": "The grid uploader for Amazon S3 in ReactJS.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "prop-types": "^15.5.8",
+    "rc-progress": "^2.1.1",
+    "react-dropzone": "^3.13.1",
+    "react-edit-inline": "^1.0.8",
+    "react-fontawesome": "^1.6.1",
+    "react-image-lightbox": "^3.4.3",
+    "react-progressbar.js": "^0.2.0",
+    "react-s3-uploader": "^4.1.1",
+    "reflexbox": "^2.2.3",
+    "shortid": "^2.2.8",
+    "styled-components": "^1.4.6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phuochau/react-grid-uploader.git"
+  },
+  "keywords": [
+    "react-native"
+  ],
+  "author": "hauvo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/phuochau/react-grid-uploader/issues"
+  },
+  "homepage": "https://github.com/phuochau/react-grid-uploader#readme"
+}
